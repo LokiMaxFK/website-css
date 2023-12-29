@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    height: 300vh;
+    font-family: 'Poppins', sans-serif;
+}
+
+.wrapper{
+    margin: 80px auto;
+    width: 80%;
+    height: 560px;
+    border: 8px solid black;
+}
+
+.position{
+    width: 100px;
+    height: 100px;
+    line-height: 100px;
+    font-size: 1.2rem;
+    text-align: center;
+    color: white;
+    font-weight: bold;
+}
+
+.relative{
+    background-color: seagreen;
+
+    position: relative;
+
+    top: -280px;
+    left: 70px;
+}
+
+.static{
+    position: relative;
+
+
+    margin-top: 20px;
+    background-color: brown;
+}

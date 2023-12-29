@@ -1,0 +1,120 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Poppins', sans-serif;
+}
+
+
+
+/* CSS Project */
+
+.nav{
+    width: 90%;
+    height: 80px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 0 auto;
+}
+
+
+.nav__logo{
+    display: block;
+    width: 140px;
+}
+
+.nav__img{
+    width: 100%;
+}
+
+.nav__links{
+    padding: 0;
+    list-style: none;
+
+    display: flex;
+    gap: 16px;
+}
+
+.nav__link{
+    text-decoration: none;
+    color: rebeccapurple;
+    font-weight: 300;
+}
+
+.hero{
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    gap: 40px;
+    flex-direction: column-reverse;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.hero__text{
+    width: 100%;
+}
+
+.hero__title{
+    font-size: 2.5rem;
+    color: rebeccapurple;
+}
+
+.hero__paragraph{
+    line-height: 1.5;
+    font-weight: 300;
+    margin: 20px 0;
+}
+
+.hero__button{
+    padding: 1rem 2rem;
+    display: inline-block;
+    background-color: royalblue;
+    color: white;
+    text-decoration: none;
+    border-radius: 30px;
+    border: 1px solid transparent;
+}
+
+.hero__button--white{
+    border: 1px solid gray;
+    color: black;
+    background-color: transparent;
+}   
+
+.hero__figure{
+    width: 100%;
+}
+
+.hero__img{
+    width: 100%;
+    display: block;
+    max-width: 500px;
+    margin: 0 auto;
+}
+
+@media (width > 768px) {
+    .nav{
+       
+        flex-direction: row;
+        justify-content:space-between;
+    }
+    
+    .hero{
+
+        flex-direction: row;
+    }
+
+    .hero__text{
+        width: 40%;
+    }
+    
+
+    .hero__figure{
+        width: 40%;
+    }
+}

@@ -1,0 +1,28 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    --color-texto:black;
+    --color-fondo:white;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    color: var(--color-texto);
+    background-color: var(--color-fondo);
+    transition: .5s all;
+}
+
+source, img{
+    width: 50%;
+}
+
+
+@media (prefers-color-scheme: dark){
+    :root{
+        --color-texto:white;
+        --color-fondo:black;
+    }
+}
