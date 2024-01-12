@@ -15,48 +15,58 @@
 
     <header class="hero">
 
-        <nav class="nav">   
+        <nav class="nav container">   
 
             <figure class="nav__logo">
                 <img src="./assets/logo.svg" class="nav__img">
             </figure>
     
-            <ul class="nav__links">
+            <div class="nav__menu">
+
+           
+                <ul class="nav__links">
+        
+                    <li class="nav__list">
+                        <a href="#" class="nav__link">Features</a>
+                    </li>
+        
+                    <li class="nav__list">
+                        <a href="#" class="nav__link">Pricing</a>
+                    </li>
+        
+                    <li class="nav__list">
+                        <a href="#" class="nav__link">About</a>
+                    </li>
+        
+                    <li class="nav__list">
+                        <a href="#" class="nav__link">Blog</a>
+                    </li>
+        
+                    <li class="nav__list">
+                        <a href="#" class="nav__link">Contact</a>
+                    </li>
+        
+                </ul>
     
-                <li class="nav__list">
-                    <a href="#" class="nav__link">Features</a>
-                </li>
-    
-                <li class="nav__list">
-                    <a href="#" class="nav__link">Pricing</a>
-                </li>
-    
-                <li class="nav__list">
-                    <a href="#" class="nav__link">About</a>
-                </li>
-    
-                <li class="nav__list">
-                    <a href="#" class="nav__link">Blog</a>
-                </li>
-    
-                <li class="nav__list">
-                    <a href="#" class="nav__link">Contact</a>
-                </li>
-    
-            </ul>
-    
-            <div class="nav__buttons">
-                <a href="#" class="btn">Log in</a>
-    
-                <a href="#" class="btn">Sign up</a>
+                <div class="nav__buttons">
+                    <a href="#" class="btn">Log in</a>
+        
+                    <a href="#" class="btn btn--black">Sign up</a>
+                </div>
             </div>
+
+            <label for="menu" class="nav__label">
+                
+            </label>
+
+            <input type="checkbox" id="menu">
     
         </nav>
 
-        <section class="hero__main">
+        <section class="hero__main container">
 
             <figure class="hero__figure">
-                <img src="./assets/illustration.svg" class="hero__img">
+                <img src="./assets/moon.svg" class="hero__img">
             </figure>
 
             <article class="hero__content">
@@ -68,12 +78,12 @@
                 </p>
 
                 <div class="hero__buttons">
-                    <a href="#" class="btn">
+                    <a href="#" class="btn btn--black">
                         <img src="./assets/download-icon.svg" class="hero__icon">
                         Download for free
                     </a>
 
-                    <a href="#" class="btn">
+                    <a href="#" class="btn btn--white">
                         <img src="./assets/github.svg" class="hero__icon">
                         Github Repo
                     </a>
@@ -87,7 +97,8 @@
 
     <main>
 
-        <section class="about">
+        <section class="about container">
+
             <h2 class="about__title">Everything you need to start a website
             </h2>
             <p class="about__paragraph">Astro comes batteries included. It takes the best parts of state-of-the-art tools and adds its own innovations.
@@ -210,6 +221,7 @@
                 <p class="cta__paragraph">Pull content from anywhere and serve it fast with Astro's next-gen island architecture.</p>
                 <a href="#" class="cta__btn">Get Started</a>
             </section>
+
         </section>
 
         
