@@ -1,0 +1,28 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: Arial;
+}
+
+.fixed{
+    font-size: 1.8rem;
+    background-color: crimson;
+    width: 100%;
+    text-align: center;
+    color: white;
+
+    position: fixed;
+    bottom: 0;
+}
+
+article{
+    margin-bottom: 3rem;
+}
+
+p{
+    font-size: 1.5rem;
+    line-height: 2;
+}
